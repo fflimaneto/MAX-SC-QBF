@@ -13,6 +13,12 @@ This project implements an Integer Linear Programming (ILP) solution for the MAX
 - Francisco Ferreira Lima Neto
 - Felipe Araújo de Lima
 
+## How to run the solver
+- python3 solve.py
+- python3 solve.py instance_path
+
+When an instance path is not passed, all instances within the folder 'data' are solved.
+
 ## Problem Description
 
 The MAX-SC-QBF problem involves maximizing an objective function f(x) while optimizing binary variables x, which are determined by selecting subsets that contain these variables.
